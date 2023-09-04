@@ -9,7 +9,14 @@ const SignInView = () => {
   return (
     <>
       {/* <div className="bg-red-100">asd</div> */}
-      <section className="bg-red-600 h-full w-full items-center">asda</section>
+      <section className="bg-gray-100 h-full w-full flex items-center flex-wrap">
+        <div className="w-8/12 h-full">Image</div>
+        <div className="w-4/12 h-full flex p-10 items-center">
+          <div className="w-full">
+            <SignInForm></SignInForm>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
